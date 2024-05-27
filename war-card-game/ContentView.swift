@@ -74,7 +74,7 @@ struct ContentView: View {
         if(playerNumber > cpuNumber){
             playerScore += 1
         }
-        if(playerNumber == cpuNumber){
+        if(playerNumber < cpuNumber){
             cpuScore += 1
         }
         
